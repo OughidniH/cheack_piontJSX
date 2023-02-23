@@ -1,0 +1,22 @@
+.MyNavbar .navbar{
+    width: 100%;
+}
+.MyNavbar .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+    
+}
+.MyNavbar .navbar ul li a{
+    display: block;
+    padding: 1rem 7rem;
+    margin: 1.5rem ;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+
+}
+.MyNavbar .navbar ul li a:hover{
+    background: var(--yellow);
+    
+}

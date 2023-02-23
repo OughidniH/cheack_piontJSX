@@ -1,0 +1,29 @@
+.myheader {
+    position: fixed;
+    top:0px ; left: 0px;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+
+}
+
+
+/* ************** MEDIA QUERY*************** */
+@media (max-width:991px) {
+
+    .myheader{
+    left: -120%;
+   } 
+  
+   .myheader.left{
+    left:0%;
+   }
+
+
+}
